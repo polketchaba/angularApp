@@ -1,0 +1,31 @@
+<!-- ********************* project (completed) starts ****************************** -->
+
+<section class="project-work">
+    <div class="container headings text-center">
+        <p class = "text-center font-weight-bold">MORE THAN 2,000 WEBSITES CREATED</p>
+    </div>
+
+    <div  class="container d-flex justify-content-around align-items-center text-center" >
+        <div *ngFor="let project of projects" class="text-center">
+            <p>{{project.name}}</p>
+            <h1 class="count">{{project.amount}}</h1>
+        </div>
+  
+<!--    <div>
+            <h1 class="count">2500</h1>
+            <p>Awards Won</p>
+        </div>
+  
+        <div>
+            <h1 class="count">700</h1>
+            <p>Happy Clients</p>
+        </div>
+  
+        <div>
+            <h1 class="count">500</h1>
+            <p>Working On</p>
+        </div>  -->
+    </div>
+</section>
+
+<!-- ********************* project (completed) ends ****************************** -->
